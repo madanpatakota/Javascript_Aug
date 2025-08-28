@@ -38,7 +38,14 @@ let StudentsList = [{
                       "studentname":"Sahiti",
                       "location"   : "Pdtr",
                       "Aadharcard" : "7890-XXXX-1234"
-                    }]
+                    }];
+    
+
+let student = {
+                      "studentname":"Vasavi",
+                      "location"   : "Pdtr",
+                      "Aadharcard" : "1234-XXXX-7890"
+              };
 
 
 
@@ -54,19 +61,23 @@ let my_personal_details = {
                    "Location"     : "AP",
                    "isMarried"    : true,
                    "Salary"       : 20000.89
-                 }
+                 };
+
+
+
+
 console.log(my_personal_details);
 console.log(my_personal_details.Location);
 
 
 
 let my_personal_details_1 = {
-                   "aadharCardNo" : "1234-9087-9087",
+                   "aadharCardNo" : "1234-3456-7890",
                    "DOB"          : "01-01-1990",
                    "Kids"         : { 
                                       'firstKid' : 'John'
                                     },
-                   "Hobbies"      : ["Cricket" , "Chess" , "Reading"]
+                   "Hobbies"      : ["Cricket" , "Chess" , "Reading" ,"abc"]
                  }                 //     0        1          2
 
 
@@ -79,3 +90,11 @@ console.log(my_personal_details_1.Kids.firstKid); //John
 
 
 
+
+
+
+// Director - Rajavmoule - 4 or 5 years ( Script work proper plan)
+
+//Mentors
+let a = 10; 
+let b = 20;

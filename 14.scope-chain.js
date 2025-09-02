@@ -23,3 +23,5 @@
 
 
 //Rule do't take my example
+//Real time projects variable access var -> you can access anywhere in the application.
+

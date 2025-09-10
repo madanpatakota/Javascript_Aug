@@ -17,7 +17,6 @@ function SecondFunction()
 }
 //SecondFunction();
 
-
 //the way you are created the function or function declaration
 function ThirdFunction()
 {
@@ -36,7 +35,13 @@ function ThirdFunction()
     //let StudentsList = ["Rajitha" , "Vasavi"];
     console.log(StudentsList);
 }
-ThirdFunction();
+
+
+//sync call
+
+firstFunction();   //once its ex
+SecondFunction();  //second
+ThirdFunction();   //tnird
 
 
 

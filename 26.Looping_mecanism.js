@@ -25,6 +25,20 @@ while(rule < -1)
 }
 
 
+//---------------------For loop
+
+//for(variableintilization;condition;valueincreae/decrease)
+//{
+
+//}
+for(let bookNumber= 0 ; bookNumber < 5 ; bookNumber = bookNumber + 1)
+{
+    console.log("YOur book number is " , bookNumber);
+}
+
+//
+
+
 //------------------------------------------------------
 
 let index = 0
@@ -75,4 +89,4 @@ for(let fruit of fruits){
 
 
 
-//for()
+//callback function

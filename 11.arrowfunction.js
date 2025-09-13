@@ -26,3 +26,8 @@ var PrintMessage4 = (param1 , age)=>{
 PrintMessage4("Javascript", "10");
 
 
+//if you pass the function as rgument
+
+//
+
+

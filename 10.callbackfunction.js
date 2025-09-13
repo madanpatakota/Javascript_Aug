@@ -6,16 +6,32 @@
 // getMyName("Madan")
 
 
-function getMyLocation(callbackfn) {
-    var test = callbackfn; 
+function getMyLocation(resolve , reject) {
+    var test = resolve; 
     test("Madan");
+
+    var rejectMessage = reject
+    rejectMessage("rejected");
 }
 
 getMyLocation(
     function(param1){
         console.log("Hello world");
         console.log(param1);
-     }
+     },
+     function(param1){
+        console.log("Hello world");
+        console.log(param1);
+     },
+     function(param1){
+        console.log("Hello world");
+        console.log(param1);
+     },
+     function(param1){
+        console.log("Hello world");
+        console.log(param1);
+     },
+     "Hello world"
 );
 
 

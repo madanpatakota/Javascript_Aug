@@ -36,5 +36,7 @@ console.log("CAlling his mom");
 console.log("Doing some Whatsapp")
 
 
+//put the debugger each and every line and try to understand...
+
 
 
